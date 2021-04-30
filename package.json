@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "object-tee",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "lint": "eslint",
+    "buildTsDev": "tsc -p tsconfig.dev.json",
+    "buildDev": "npm run buildTsDev",
+    "buildTsProd": "tsc -p tsconfig.prod.json",
+    "buildProd": "npm run buildTsProd",
+    "prepare": "rd /s /q lib && rd /s /q types && npm run buildProd"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.1",
+    "@typescript-eslint/parser": "^4.22.0",
+    "typescript": "^4.2.4"
+  }
+}
