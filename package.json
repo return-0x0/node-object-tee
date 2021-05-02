@@ -1,12 +1,17 @@
 {
   "private": true,
   "name": "object-tee",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
-  "description": "",
-  "keywords": [],
-  "author": "",
+  "description": "Provides T-object functional.",
+  "keywords": [
+    "tee",
+    "t",
+    "functional",
+    "utility"
+  ],
+  "author": "retueze",
   "license": "ISC",
   "scripts": {
     "lint": "eslint",
