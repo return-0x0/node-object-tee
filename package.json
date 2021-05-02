@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "object-tee",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
   "description": "Provides T-object functional.",
